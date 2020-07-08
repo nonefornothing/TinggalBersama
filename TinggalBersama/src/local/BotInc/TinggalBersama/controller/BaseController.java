@@ -1,0 +1,10 @@
+package local.BotInc.TinggalBersama.controller;
+
+import local.BotInc.TinggalBersama.model.Juragan;
+
+public abstract class BaseController {
+
+	abstract Juragan getJuragan();
+	abstract Integer totalAmount();
+	abstract String says();
+}
